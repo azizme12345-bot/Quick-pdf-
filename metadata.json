@@ -1,0 +1,8 @@
+{
+  "name": "Quick PDF Tools",
+  "description": "Fast, Free & Simple PDF Tools. Convert, merge, split, compress and manage your PDF files quickly and easily in your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
