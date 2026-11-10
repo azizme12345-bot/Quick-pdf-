@@ -213,27 +213,37 @@ export function PdfToImagesBase({ title, description, seoTitle, seoDescription, 
 export function PdfToJpg() {
   const infoContent = (
     <div>
-      <h2>What is PDF to JPG?</h2>
-      <p>This tool converts each page of your PDF document into a high-quality JPG image. It's great for sharing pages as images or previewing PDFs without a PDF viewer.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use PDF to JPG</h2>
+      <p>
+        Converting PDF pages into JPG images makes it simple to share slides, charts, or pages on social media and websites. Follow these three steps:
+      </p>
       <ol>
-        <li>Click "Select PDF File" or drag your PDF into the upload area.</li>
-        <li>Click the "Convert to JPG" button to process your file.</li>
-        <li>Download the generated JPG images individually or as a ZIP file.</li>
+        <li>Select a PDF file from your device or drag and drop it into the upload box above.</li>
+        <li>Click the "Convert to JPG" button to render each page of your PDF into a crisp JPG image.</li>
+        <li>Download individual pages one by one, or click "Download All as ZIP" to save every page at once.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Can I convert all pages?</strong> Yes, the tool automatically converts every page of your PDF into an image.</p>
-      <p><strong>Is the output quality good?</strong> Yes, the tool ensures high-quality image extraction from your PDF.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Does it convert every page of my PDF?</strong><br />
+        Yes. Every page in your PDF document is converted into its own separate JPG image file.
+      </p>
+      <p>
+        <strong>What resolution are the exported JPG images?</strong><br />
+        Pages are rendered at high resolution (2x scale) so text, charts, and photos remain clear and easy to read.
+      </p>
+      <p>
+        <strong>Are my PDFs uploaded to a server?</strong><br />
+        No. All rendering happens locally inside your web browser, keeping your documents private.
+      </p>
     </div>
   );
   return (
     <PdfToImagesBase 
       title="PDF to JPG" 
       description="Extract pages from your PDF as JPG images."
-      seoTitle="PDF to JPG Converter - Free Online | Quick PDF Tools"
-      seoDescription="Convert PDF pages to JPG images for free. Extract images from your PDF securely in your browser."
+      seoTitle="PDF to JPG | Quick PDF Tools"
+      seoDescription="Convert PDF pages into high-quality JPG images online for free. Download single pages or a ZIP archive directly in your browser."
       format="jpeg"
       infoContent={infoContent}
     />
@@ -243,27 +253,37 @@ export function PdfToJpg() {
 export function PdfToPng() {
   const infoContent = (
     <div>
-      <h2>What is PDF to PNG?</h2>
-      <p>This tool converts each page of your PDF document into a high-quality PNG image. It's excellent for preserving image quality and supporting transparency in your extracted pages.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use PDF to PNG</h2>
+      <p>
+        PNG is a lossless image format that keeps sharp text, diagrams, and graphics looking crisp. Follow these three steps to convert your PDF to PNG:
+      </p>
       <ol>
-        <li>Click "Select PDF File" or drag your PDF into the upload area.</li>
-        <li>Click the "Convert to PNG" button to process your file.</li>
-        <li>Download the generated PNG images individually or as a ZIP file.</li>
+        <li>Upload your PDF document by clicking the upload area or dragging the file onto the page.</li>
+        <li>Click "Convert to PNG" to turn each page of your PDF into a lossless PNG image.</li>
+        <li>Save any single page directly, or use "Download All as ZIP" if your PDF has multiple pages.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Is PNG better than JPG?</strong> PNG is better for images requiring high quality and supports transparency.</p>
-      <p><strong>Are pages converted individually?</strong> Yes, each PDF page becomes a separate PNG image.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>When should I choose PNG instead of JPG?</strong><br />
+        Choose PNG when your PDF has sharp text, line art, or screenshots, as PNG avoids compression artifacts around edges.
+      </p>
+      <p>
+        <strong>How do I download a multi-page PDF?</strong><br />
+        For PDFs with two or more pages, a "Download All as ZIP" button appears so you can grab all PNGs in one click.
+      </p>
+      <p>
+        <strong>Is my file kept private?</strong><br />
+        Yes. Conversion runs completely inside your browser without uploading your PDF anywhere.
+      </p>
     </div>
   );
   return (
     <PdfToImagesBase 
       title="PDF to PNG" 
       description="Extract pages from your PDF as PNG images."
-      seoTitle="PDF to PNG Converter - Free Online | Quick PDF Tools"
-      seoDescription="Convert PDF pages to PNG images online for free. High-quality extraction directly in your browser."
+      seoTitle="PDF to PNG | Quick PDF Tools"
+      seoDescription="Convert PDF pages into lossless PNG images online for free. Fast, private, and easy to use directly in your web browser."
       format="png"
       infoContent={infoContent}
     />

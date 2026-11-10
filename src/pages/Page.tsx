@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { SITE_URL } from '../config/site';
 
 interface PageProps {
   title: string;
@@ -7,13 +8,14 @@ interface PageProps {
 }
 
 export default function Page({ title, children }: PageProps) {
-  const canonicalUrl = typeof window !== 'undefined' ? 'https://quick-pdf-tools.ai.studio' + window.location.pathname : '';
+  const canonicalUrl = typeof window !== 'undefined' ? SITE_URL + window.location.pathname : '';
   const seoTitle = `${title} | Quick PDF Tools`;
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
       <Helmet>
         <title>{seoTitle}</title>
+        <meta name="robots" content="noindex, follow" />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         
         {/* Dynamic OG Tags */}

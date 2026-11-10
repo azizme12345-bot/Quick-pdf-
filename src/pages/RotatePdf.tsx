@@ -54,19 +54,29 @@ export default function RotatePdf() {
 
   const infoContent = (
     <div>
-      <h2>What is Rotate PDF?</h2>
-      <p>This tool allows you to rotate the pages of your PDF document by 90, 180, or 270 degrees. It's perfect for fixing documents that were scanned upside down or sideways.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use Rotate PDF</h2>
+      <p>
+        If a scanned document or report opens sideways or upside down, you can fix its orientation in seconds. Follow these three simple steps:
+      </p>
       <ol>
-        <li>Click "Select PDF File" or drag your PDF into the upload area.</li>
-        <li>Select the desired rotation angle (90°, 180°, or 270°).</li>
-        <li>Click "Rotate PDF" and download the corrected document.</li>
+        <li>Click the upload area or drag and drop the PDF file you want to fix.</li>
+        <li>Choose the rotation angle you need: 90 degrees, 180 degrees, or 270 degrees clockwise.</li>
+        <li>Click the "Rotate PDF" button to apply the change and download your properly oriented document.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Does it rotate all pages?</strong> Yes, the tool applies the selected rotation angle to all pages of the document.</p>
-      <p><strong>Is the process permanent?</strong> Yes, it creates a new, rotated version of your file for you to download.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Does this rotate every page in the PDF?</strong><br />
+        Yes. The selected rotation angle is applied to all pages in your document at once, saving you time on multi-page scans.
+      </p>
+      <p>
+        <strong>Is the rotation saved permanently?</strong><br />
+        Yes. The downloaded PDF file has the new page orientation saved permanently, so it will open upright in any PDF viewer.
+      </p>
+      <p>
+        <strong>Are my files kept private?</strong><br />
+        Yes. Rotating happens directly in your browser without uploading your PDF to any external server.
+      </p>
     </div>
   );
 
@@ -75,8 +85,8 @@ export default function RotatePdf() {
       <ToolLayout 
         title="Rotate PDF" 
         description="Rotate your PDFs the way you need them." 
-        seoTitle="Rotate PDF Online Free | Quick PDF Tools" 
-        seoDescription="Rotate PDF pages online for free. Secure, fast, and easy to use."
+        seoTitle="Rotate PDF | Quick PDF Tools" 
+        seoDescription="Rotate PDF pages 90, 180, or 270 degrees online for free. Fix sideways or upside-down PDFs securely in your browser."
         infoContent={infoContent}
       >
         <ResultPreview 
@@ -92,8 +102,8 @@ export default function RotatePdf() {
     <ToolLayout 
       title="Rotate PDF" 
       description="Rotate your PDFs the way you need them." 
-      seoTitle="Rotate PDF Online Free | Quick PDF Tools" 
-      seoDescription="Rotate PDF pages online for free. Secure, fast, and easy to use."
+      seoTitle="Rotate PDF | Quick PDF Tools" 
+      seoDescription="Rotate PDF pages 90, 180, or 270 degrees online for free. Fix sideways or upside-down PDFs securely in your browser."
       infoContent={infoContent}
     >
       <div className="p-8">

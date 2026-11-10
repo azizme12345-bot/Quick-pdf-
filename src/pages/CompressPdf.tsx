@@ -59,19 +59,29 @@ export default function CompressPdf() {
 
   const infoContent = (
     <div>
-      <h2>What is Compress PDF?</h2>
-      <p>Compress PDF is a free online tool that reduces the file size of your PDF documents while maintaining the best possible quality. It's ideal for making files easier to share via email or upload to web forms.</p>
-      
-      <h3>How to use Compress PDF in 3 steps:</h3>
+      <h2>How to use Compress PDF</h2>
+      <p>
+        Large PDF files can be hard to email or upload to online forms. Use this tool to shrink your PDF size in three easy steps:
+      </p>
       <ol>
-        <li>Click the "Select PDF File" button or drag and drop your file into the upload area.</li>
-        <li>Review the file name and size shown on the screen.</li>
-        <li>Click the "Compress PDF" button to reduce the file size, then download the optimized version.</li>
+        <li>Select a PDF file from your computer or phone, or drag and drop it into the upload box.</li>
+        <li>Check the file name and original size displayed on your screen.</li>
+        <li>Click "Compress PDF" to optimize the document, then compare the new size and download your smaller file.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Does it affect quality?</strong> The tool optimizes the file by removing unnecessary data. While it generally maintains high quality, extremely large images might see slight compression.</p>
-      <p><strong>Is my data safe?</strong> Yes, your files are processed securely in your browser and are not uploaded to a permanent server.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>How does browser-based compression work?</strong><br />
+        The tool cleans up unused objects, redundant metadata, and extra structure inside the PDF to make the file smaller without altering your text.
+      </p>
+      <p>
+        <strong>Will my PDF still look sharp after compressing?</strong><br />
+        Yes. Text and vector graphics stay crisp. However, if your PDF consists mostly of large scanned photos, the size reduction may be modest.
+      </p>
+      <p>
+        <strong>Is it safe for confidential documents?</strong><br />
+        Yes. Compression happens locally on your device, so your files are never uploaded or stored on any server.
+      </p>
     </div>
   );
 
@@ -80,8 +90,8 @@ export default function CompressPdf() {
       <ToolLayout 
         title="Compress PDF" 
         description="Reduce file size while optimizing for maximal quality." 
-        seoTitle="Compress PDF Online Free | Quick PDF Tools" 
-        seoDescription="Compress PDF files online for free. Reduce PDF file size quickly and securely in your browser."
+        seoTitle="Compress PDF | Quick PDF Tools" 
+        seoDescription="Reduce PDF file size online for free without losing readability. Fast, secure, and private PDF compression in your browser."
         infoContent={infoContent}
       >
         <div className="bg-slate-50 border-b border-slate-200 p-4 text-center">
@@ -104,8 +114,8 @@ export default function CompressPdf() {
     <ToolLayout 
       title="Compress PDF" 
       description="Reduce file size while optimizing for maximal quality." 
-      seoTitle="Compress PDF Online Free | Quick PDF Tools" 
-      seoDescription="Compress PDF files online for free. Reduce PDF file size quickly and securely in your browser."
+      seoTitle="Compress PDF | Quick PDF Tools" 
+      seoDescription="Reduce PDF file size online for free without losing readability. Fast, secure, and private PDF compression in your browser."
       infoContent={infoContent}
     >
       <div className="p-8">

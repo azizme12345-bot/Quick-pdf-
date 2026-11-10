@@ -170,58 +170,38 @@ export function ImagesToPdfBase({ title, description, seoTitle, seoDescription, 
 export function JpgToPdf() {
   const infoContent = (
     <div>
-      <h2>What is JPG to PDF?</h2>
-      <p>This tool converts your JPG or JPEG images into high-quality PDF files. It's useful for combining multiple photos into a single document.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use JPG to PDF</h2>
+      <p>
+        Converting JPG photos into a PDF makes them much easier to share, print, or submit online. Follow these three steps to create your PDF:
+      </p>
       <ol>
-        <li>Click "Select JPG Files" or drag your images into the upload area.</li>
-        <li>Arrange images in the desired order by dragging them in the list.</li>
-        <li>Click "Convert to PDF" to generate your document and download it.</li>
+        <li>Select one or more JPG or JPEG images from your device, or drag them into the upload area.</li>
+        <li>Drag the image cards up or down to arrange them in the exact page order you want.</li>
+        <li>Click "Convert to PDF" to combine your photos into an A4 PDF document, then download it.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Can I convert multiple images?</strong> Yes, you can upload and convert multiple JPG files at once.</p>
-      <p><strong>Is the quality maintained?</strong> Yes, the tool preserves the original image quality in the PDF output.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Can I combine multiple JPG files into one PDF?</strong><br />
+        Yes. You can upload several JPG images at once and arrange their order before converting them into a single multi-page PDF.
+      </p>
+      <p>
+        <strong>Will my photos lose quality?</strong><br />
+        No. Each JPG image is scaled cleanly to fit the PDF page while keeping its original clarity and colors.
+      </p>
+      <p>
+        <strong>Are my photos uploaded to a server?</strong><br />
+        No. The entire conversion runs locally in your browser, so your personal photos stay private on your device.
+      </p>
     </div>
   );
   return (
     <ImagesToPdfBase 
       title="JPG to PDF" 
       description="Convert JPG images into PDF files quickly."
-      seoTitle="JPG to PDF Converter - Free Online | Quick PDF Tools"
-      seoDescription="Convert JPG images to PDF for free. Fast, secure, and easy to use. Drag and drop your JPG files to convert them to PDF directly in your browser."
+      seoTitle="JPG to PDF | Quick PDF Tools"
+      seoDescription="Convert JPG and JPEG images into a PDF document online for free. Fast, private, and easy to use directly in your web browser."
       accept={{'image/jpeg': ['.jpg', '.jpeg']}}
-      infoContent={infoContent}
-    />
-  );
-}
-
-export function PngToPdf() {
-  const infoContent = (
-    <div>
-      <h2>What is PNG to PDF?</h2>
-      <p>This tool converts your PNG images into a PDF document. It's great for images that need transparency support or are already in PNG format.</p>
-      
-      <h3>How to use in 3 steps:</h3>
-      <ol>
-        <li>Click "Select PNG Files" or drag your images into the upload area.</li>
-        <li>Arrange the images in the correct order in the list.</li>
-        <li>Click "Convert to PDF" to create your new PDF file and download it.</li>
-      </ol>
-
-      <h3>Common Questions:</h3>
-      <p><strong>Is transparency supported?</strong> Yes, PNG images with transparency are handled correctly during conversion.</p>
-      <p><strong>Can I convert multiple PNGs?</strong> Yes, you can combine multiple PNG files into one PDF.</p>
-    </div>
-  );
-  return (
-    <ImagesToPdfBase 
-      title="PNG to PDF" 
-      description="Convert PNG images into a PDF document."
-      seoTitle="PNG to PDF Converter - Free Online | Quick PDF Tools"
-      seoDescription="Convert PNG images to PDF for free. Process PNG files into high-quality PDFs securely in your browser."
-      accept={{'image/png': ['.png']}}
       infoContent={infoContent}
     />
   );
@@ -230,29 +210,40 @@ export function PngToPdf() {
 export function ImagesToPdf() {
   const infoContent = (
     <div>
-      <h2>What is Images to PDF?</h2>
-      <p>Combine multiple JPG, JPEG, and PNG images into a single PDF document. It's the most convenient way to create a PDF from various image sources.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use Images to PDF</h2>
+      <p>
+        Need to turn a mix of JPG and PNG pictures into a single PDF? Follow these three simple steps to build your document:
+      </p>
       <ol>
-        <li>Upload your JPG and PNG images using the upload area.</li>
-        <li>Sort your images by dragging and dropping them into the desired order.</li>
-        <li>Click "Convert to PDF" to combine all images and download the final PDF.</li>
+        <li>Upload any combination of JPG, JPEG, and PNG files using the upload box above.</li>
+        <li>Reorder your images by dragging them into the sequence you want them to appear in the PDF.</li>
+        <li>Click "Convert to PDF" to generate your multi-page PDF file and download it right away.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Can I mix image types?</strong> Yes, you can easily combine both JPG and PNG images into a single PDF file.</p>
-      <p><strong>Does it work offline?</strong> Yes, the conversion happens directly in your browser, and no internet connection is required after loading the page.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Can I mix JPG and PNG images in the same PDF?</strong><br />
+        Yes. You can upload both JPG and PNG files together and combine them into one clean PDF document.
+      </p>
+      <p>
+        <strong>How are different image sizes handled?</strong><br />
+        Each image is automatically centered and scaled to fit neatly onto an A4 page without stretching or cropping.
+      </p>
+      <p>
+        <strong>Is there any cost or file limit?</strong><br />
+        It is 100% free with no watermarks, and everything processes directly inside your web browser.
+      </p>
     </div>
   );
   return (
     <ImagesToPdfBase 
       title="Images to PDF" 
       description="Convert multiple JPG & PNG images to a single PDF."
-      seoTitle="Images to PDF Converter - Free Online | Quick PDF Tools"
-      seoDescription="Combine multiple JPG, JPEG, and PNG images into a single PDF document for free. Easy to use online tool."
+      seoTitle="Images to PDF | Quick PDF Tools"
+      seoDescription="Combine multiple JPG and PNG images into a single PDF document online for free. Fast, private, and easy to use in your browser."
       accept={{'image/jpeg': ['.jpg', '.jpeg'], 'image/png': ['.png']}}
       infoContent={infoContent}
     />
   );
 }
+

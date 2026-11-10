@@ -12,6 +12,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { AdPlaceholder } from '../components/Layout';
+import { SITE_URL } from '../config/site';
 
 const tools = [
   {
@@ -22,15 +23,6 @@ const tools = [
     path: '/jpg-to-pdf',
     color: 'text-yellow-600',
     bgColor: 'bg-yellow-50'
-  },
-  {
-    id: 'png-to-pdf',
-    name: 'PNG to PDF',
-    description: 'Convert PNG images into a PDF document.',
-    icon: ImageIcon,
-    path: '/png-to-pdf',
-    color: 'text-green-600',
-    bgColor: 'bg-green-50'
   },
   {
     id: 'images-to-pdf',
@@ -107,15 +99,16 @@ const tools = [
 ];
 
 export default function Home() {
-  const canonicalUrl = typeof window !== 'undefined' ? 'https://quick-pdf-tools.ai.studio' + window.location.pathname : '';
-  const seoTitle = "Quick PDF Tools - Fast, Free & Simple PDF Tools";
-  const seoDescription = "Free Online PDF Tools. Convert, merge, split, compress and manage your PDF files quickly and easily directly in your browser. Fully secure, private, and 100% free.";
+  const canonicalUrl = typeof window !== 'undefined' ? SITE_URL + window.location.pathname : '';
+  const seoTitle = "Free Online PDF Tools | Quick PDF Tools";
+  const seoDescription = "Convert, merge, split, compress, and rotate PDF files online for free. Fast, private, and easy to use directly in your web browser.";
 
   return (
     <div>
       <Helmet>
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
+        <meta name="robots" content="index, follow" />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         
         {/* Dynamic OG Tags */}

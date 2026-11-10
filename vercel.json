@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/png-to-pdf",
+      "destination": "/images-to-pdf",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!sitemap\\.xml|robots\\.txt|google.*\\.html).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

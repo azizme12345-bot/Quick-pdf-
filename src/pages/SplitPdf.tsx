@@ -102,19 +102,29 @@ export default function SplitPdf() {
 
   const infoContent = (
     <div>
-      <h2>What is Split PDF?</h2>
-      <p>This tool lets you extract specific pages from your PDF and save them as a new, smaller document. It's perfect for when you only need a portion of a larger file.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use Split PDF</h2>
+      <p>
+        Splitting a PDF helps you pull out only the pages you need from a large document. Follow these three steps to extract pages quickly:
+      </p>
       <ol>
-        <li>Click "Select PDF File" or drag your PDF into the upload area.</li>
-        <li>Enter the pages or ranges you want to extract (e.g., 1-3, 5, 8).</li>
-        <li>Click "Split PDF" to create your new document and download it.</li>
+        <li>Upload your PDF file by clicking the upload area or dragging the document onto the page.</li>
+        <li>Type the page numbers or ranges you want to keep, such as "1-3, 5, 8-10", into the input box.</li>
+        <li>Click "Split PDF" to create a new PDF containing only those selected pages, then download it.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>How do I specify pages?</strong> You can use single numbers (e.g., 3), comma-separated values (e.g., 1, 3, 5), or ranges (e.g., 1-5).</p>
-      <p><strong>Is the original file changed?</strong> No, this tool extracts the pages to create a new file, leaving your original document intact.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Will splitting a PDF change my original file?</strong><br />
+        No. Your original PDF stays untouched on your device. The tool creates a brand new PDF file with only the pages you selected.
+      </p>
+      <p>
+        <strong>How should I format page ranges?</strong><br />
+        Use a hyphen for continuous pages (like 2-6) and commas to separate individual pages or ranges (like 1, 4-7, 12).
+      </p>
+      <p>
+        <strong>Is my document sent to an external server?</strong><br />
+        No. All page extraction happens locally in your browser, so your sensitive documents remain completely private.
+      </p>
     </div>
   );
 
@@ -123,8 +133,8 @@ export default function SplitPdf() {
       <ToolLayout 
         title="Split PDF" 
         description="Extract pages from your PDF into a new document." 
-        seoTitle="Split PDF Online Free | Quick PDF Tools" 
-        seoDescription="Split PDF files or extract specific pages for free. Secure, fast, and easy to use."
+        seoTitle="Split PDF | Quick PDF Tools" 
+        seoDescription="Extract specific pages or split a PDF into a smaller document online for free. Fast, private, and easy to use in your browser."
         infoContent={infoContent}
       >
         <ResultPreview 
@@ -140,8 +150,8 @@ export default function SplitPdf() {
     <ToolLayout 
       title="Split PDF" 
       description="Extract pages from your PDF into a new document." 
-      seoTitle="Split PDF Online Free | Quick PDF Tools" 
-      seoDescription="Split PDF files or extract specific pages for free. Secure, fast, and easy to use."
+      seoTitle="Split PDF | Quick PDF Tools" 
+      seoDescription="Extract specific pages or split a PDF into a smaller document online for free. Fast, private, and easy to use in your browser."
       infoContent={infoContent}
     >
       <div className="p-8">

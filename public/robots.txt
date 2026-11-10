@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://quick-pdf-tools.ai.studio/sitemap.xml
+Sitemap: https://quick-pdf-ten.vercel.app/sitemap.xml

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { AdPlaceholder } from './Layout';
+import { SITE_URL } from '../config/site';
 
 interface ToolLayoutProps {
   title: string;
@@ -12,13 +13,14 @@ interface ToolLayoutProps {
 }
 
 export default function ToolLayout({ title, description, seoTitle, seoDescription, infoContent, children }: ToolLayoutProps) {
-  const canonicalUrl = typeof window !== 'undefined' ? 'https://quick-pdf-tools.ai.studio' + window.location.pathname : '';
+  const canonicalUrl = typeof window !== 'undefined' ? SITE_URL + window.location.pathname : '';
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
       <Helmet>
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
+        <meta name="robots" content="index, follow" />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         
         {/* Dynamic OG Tags */}

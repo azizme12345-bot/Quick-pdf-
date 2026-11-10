@@ -67,19 +67,29 @@ export default function MergePdf() {
 
   const infoContent = (
     <div>
-      <h2>What is Merge PDF?</h2>
-      <p>Merge PDF is a free online tool that allows you to combine multiple PDF files into a single, cohesive document. It's perfect for organizing your paperwork, reports, or projects.</p>
-      
-      <h3>How to use Merge PDF in 3 steps:</h3>
+      <h2>How to use Merge PDF</h2>
+      <p>
+        Merging PDF files lets you combine separate documents, reports, or scanned pages into one clean file. Follow these simple steps to join your PDFs in seconds:
+      </p>
       <ol>
-        <li>Click the "Select PDF Files" button or drag and drop your files into the upload area.</li>
-        <li>Arrange your files in the desired order by dragging and dropping them in the list.</li>
-        <li>Click the "Merge PDFs" button to combine your files, then download your new document.</li>
+        <li>Select two or more PDF files from your device or drag them into the upload box above.</li>
+        <li>Drag the uploaded files up or down in the list to set the exact order you want them to appear in the final document.</li>
+        <li>Click the "Merge PDFs" button and wait a moment for the tool to combine your pages, then download your new PDF.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Is it safe to use?</strong> Yes, your files are processed securely, often directly in your browser, and are not stored permanently.</p>
-      <p><strong>Is there a limit on file size?</strong> You can merge multiple PDF files as long as your browser can handle the total size.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Are my PDF files uploaded to a server?</strong><br />
+        No. Everything runs directly inside your web browser. Your documents never leave your device, keeping your private files completely safe.
+      </p>
+      <p>
+        <strong>How many PDF files can I merge at once?</strong><br />
+        You can add as many PDF files as you need. The only limit is your device's available memory, and most everyday documents merge almost instantly.
+      </p>
+      <p>
+        <strong>Will merging change the quality of my pages?</strong><br />
+        No. Our tool copies your original pages directly into the new PDF without reducing image clarity, fonts, or formatting.
+      </p>
     </div>
   );
 
@@ -88,8 +98,8 @@ export default function MergePdf() {
       <ToolLayout 
         title="Merge PDF" 
         description="Combine multiple PDF files into one single document." 
-        seoTitle="Merge PDF Online Free | Quick PDF Tools" 
-        seoDescription="Merge multiple PDF files into a single document for free. Easy to use online PDF merger. Secure and fast."
+        seoTitle="Merge PDF | Quick PDF Tools" 
+        seoDescription="Combine multiple PDF files into one single document online for free. Fast, private, and easy-to-use PDF merger in your browser."
         infoContent={infoContent}
       >
         <ResultPreview 
@@ -105,8 +115,8 @@ export default function MergePdf() {
     <ToolLayout 
       title="Merge PDF" 
       description="Combine multiple PDF files into one single document." 
-      seoTitle="Merge PDF Online Free | Quick PDF Tools" 
-      seoDescription="Merge multiple PDF files into a single document for free. Easy to use online PDF merger. Secure and fast."
+      seoTitle="Merge PDF | Quick PDF Tools" 
+      seoDescription="Combine multiple PDF files into one single document online for free. Fast, private, and easy-to-use PDF merger in your browser."
       infoContent={infoContent}
     >
       <div className="p-8">

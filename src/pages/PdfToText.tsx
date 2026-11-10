@@ -66,19 +66,29 @@ export default function PdfToText() {
 
   const infoContent = (
     <div>
-      <h2>What is PDF to Text?</h2>
-      <p>This tool extracts selectable text from your PDF document and converts it into a plain text format. It's helpful for quickly getting content out of documents for editing or analysis.</p>
-      
-      <h3>How to use in 3 steps:</h3>
+      <h2>How to use PDF to Text</h2>
+      <p>
+        Extracting text from a PDF makes it easy to copy, edit, or reuse content without retyping. Follow these three steps to convert your PDF to plain text:
+      </p>
       <ol>
-        <li>Click "Select PDF File" or drag your PDF into the upload area.</li>
-        <li>Click the "Extract Text" button to process your file.</li>
-        <li>Review the extracted text and download it as a .txt file.</li>
+        <li>Upload your PDF document by clicking the upload box or dragging your file into it.</li>
+        <li>Click the "Extract Text" button to read the text from every page of your PDF.</li>
+        <li>Preview the extracted text right on the screen, copy it, or download it as a clean .txt file.</li>
       </ol>
 
-      <h3>Common Questions:</h3>
-      <p><strong>Does it work with scanned PDFs?</strong> No, this tool extracts selectable text. If your PDF is a scanned image, the tool will not be able to read the text.</p>
-      <p><strong>Is the formatting preserved?</strong> The tool attempts to preserve the basic layout, but complex formatting may not be fully retained.</p>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        <strong>Can this tool read scanned PDFs or images?</strong><br />
+        No. It extracts selectable digital text embedded in the PDF. If your PDF is a scanned photo of a page, it will not contain selectable text.
+      </p>
+      <p>
+        <strong>Will my formatting and tables be kept?</strong><br />
+        The output is plain text (.txt), so fonts, colors, and complex tables are removed while basic line breaks and page order are preserved.
+      </p>
+      <p>
+        <strong>Is my PDF uploaded anywhere?</strong><br />
+        No. Text extraction runs entirely inside your browser, keeping your documents private.
+      </p>
     </div>
   );
 
@@ -90,8 +100,8 @@ export default function PdfToText() {
       <ToolLayout 
         title="PDF to Text" 
         description="Extract text from your PDF into a text document." 
-        seoTitle="PDF to Text Converter - Free Online | Quick PDF Tools" 
-        seoDescription="Extract text from PDF files online for free. Fast, secure, and accurate text extraction."
+        seoTitle="PDF to Text | Quick PDF Tools" 
+        seoDescription="Extract selectable text from PDF files into a plain text document online for free. Fast, private, and easy to use in your browser."
         infoContent={infoContent}
       >
         <ResultPreview 
@@ -109,8 +119,8 @@ export default function PdfToText() {
     <ToolLayout 
       title="PDF to Text" 
       description="Extract text from your PDF into a text document." 
-      seoTitle="PDF to Text Converter - Free Online | Quick PDF Tools" 
-      seoDescription="Extract text from PDF files online for free. Fast, secure, and accurate text extraction."
+      seoTitle="PDF to Text | Quick PDF Tools" 
+      seoDescription="Extract selectable text from PDF files into a plain text document online for free. Fast, private, and easy to use in your browser."
       infoContent={infoContent}
     >
       <div className="p-8">

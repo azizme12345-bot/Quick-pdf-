@@ -1,78 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://quick-pdf-ten.vercel.app/</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/jpg-to-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/jpg-to-pdf</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/png-to-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/images-to-pdf</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/images-to-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/pdf-to-jpg</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/pdf-to-jpg</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/pdf-to-png</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/pdf-to-png</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/merge-pdf</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/merge-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/split-pdf</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/split-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/compress-pdf</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/compress-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://quick-pdf-ten.vercel.app/rotate-pdf</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://quick-pdf-tools.ai.studio/rotate-pdf</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quick-pdf-tools.ai.studio/pdf-to-text</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quick-pdf-tools.ai.studio/about</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://quick-pdf-tools.ai.studio/contact</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://quick-pdf-tools.ai.studio/privacy-policy</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://quick-pdf-tools.ai.studio/terms-of-service</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://quick-pdf-ten.vercel.app/pdf-to-text</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
 </urlset>
