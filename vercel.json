@@ -8,7 +8,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!sitemap\\.xml|robots\\.txt|google.*\\.html).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
