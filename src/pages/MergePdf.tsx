@@ -69,26 +69,42 @@ export default function MergePdf() {
     <div>
       <h2>How to use Merge PDF</h2>
       <p>
-        Merging PDF files lets you combine separate documents, reports, or scanned pages into one clean file. Follow these simple steps to join your PDFs in seconds:
+        Our Merge PDF tool lets you combine two or more separate PDF files into one organized document right inside your browser. Whether you have multiple chapters of a report, scanned pages saved as individual files, or supporting documents that belong together, you can join them cleanly without installing any desktop software.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Select two or more PDF files from your device or drag them into the upload box above.</li>
-        <li>Drag the uploaded files up or down in the list to set the exact order you want them to appear in the final document.</li>
-        <li>Click the "Merge PDFs" button and wait a moment for the tool to combine your pages, then download your new PDF.</li>
+        <li>Click the upload box above or drag and drop the PDF files you want to combine.</li>
+        <li>Once your files appear in the list, drag them up or down to arrange them in the exact order you need.</li>
+        <li>If you forgot a document, click "Add More Files" to include additional PDFs in the queue.</li>
+        <li>Click the "Merge PDFs" button to join all pages into a single file.</li>
+        <li>Preview the result and click "Download" to save your merged PDF to your device.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Job seekers often need to submit a resume, a cover letter, and academic certificates as a single attachment on an online job portal. Instead of sending three separate emails or struggling with portal limits, you can merge your resume, cover letter, and certificates into one neat, professional PDF packet in under a minute.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Check the file order in the list before clicking merge so your cover page appears first.</li>
+        <li>Make sure none of the PDFs are password-protected before uploading them.</li>
+        <li>If the final merged file is too large for an email attachment, run it through our Compress PDF tool afterward.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
         <strong>Are my PDF files uploaded to a server?</strong><br />
-        No. Everything runs directly inside your web browser. Your documents never leave your device, keeping your private files completely safe.
+        No. All merging happens locally inside your web browser. Your documents never leave your computer or phone, keeping your personal and work files private.
       </p>
       <p>
-        <strong>How many PDF files can I merge at once?</strong><br />
-        You can add as many PDF files as you need. The only limit is your device's available memory, and most everyday documents merge almost instantly.
+        <strong>How many PDF files can I combine at once?</strong><br />
+        You can merge as many PDF files as your device memory can handle. Most everyday documents with dozens of pages combine almost instantly.
       </p>
       <p>
-        <strong>Will merging change the quality of my pages?</strong><br />
-        No. Our tool copies your original pages directly into the new PDF without reducing image clarity, fonts, or formatting.
+        <strong>Will merging reduce the quality of my text or images?</strong><br />
+        No. The tool copies your original pages directly into the new PDF, preserving all fonts, links, and image clarity.
       </p>
     </div>
   );

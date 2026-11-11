@@ -68,26 +68,41 @@ export default function PdfToText() {
     <div>
       <h2>How to use PDF to Text</h2>
       <p>
-        Extracting text from a PDF makes it easy to copy, edit, or reuse content without retyping. Follow these three steps to convert your PDF to plain text:
+        Our PDF to Text tool extracts selectable text from your PDF documents and converts it into a clean, plain text format. It is a fast way to pull written content out of locked or formatted PDFs so you can edit, quote, or search through it in any text editor or word processor.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Upload your PDF document by clicking the upload box or dragging your file into it.</li>
-        <li>Click the "Extract Text" button to read the text from every page of your PDF.</li>
-        <li>Preview the extracted text right on the screen, copy it, or download it as a clean .txt file.</li>
+        <li>Click the upload area or drag and drop the PDF file you want to extract text from.</li>
+        <li>Click the "Extract Text" button to scan all pages of your document.</li>
+        <li>Read through the extracted text in the preview box, organized page by page.</li>
+        <li>Copy the text directly to your clipboard or click "Download" to save it as a .txt file.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Students researching essays and office workers reviewing long reports often need to pull quotes, paragraphs, or data from a PDF into Word or Google Docs. Instead of manually retyping paragraphs or dealing with broken PDF copy-pasting, you can extract the entire document's text in one click.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Make sure your PDF contains selectable digital text rather than flat scanned images of pages.</li>
+        <li>Use the page markers in the output (such as "--- Page 1 ---") to quickly locate where each section came from.</li>
+        <li>After downloading the .txt file, you can open it in Notepad, TextEdit, Word, or Google Docs for further editing.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
-        <strong>Can this tool read scanned PDFs or images?</strong><br />
-        No. It extracts selectable digital text embedded in the PDF. If your PDF is a scanned photo of a page, it will not contain selectable text.
+        <strong>Can this tool read scanned PDFs or photos of text?</strong><br />
+        No. It extracts digital text embedded inside the PDF. If your PDF is a scanned image without selectable text, no text will be found.
       </p>
       <p>
-        <strong>Will my formatting and tables be kept?</strong><br />
-        The output is plain text (.txt), so fonts, colors, and complex tables are removed while basic line breaks and page order are preserved.
+        <strong>Will fonts, colors, and tables be preserved?</strong><br />
+        The output is plain text (.txt), so styling, fonts, and complex table borders are removed while basic line breaks and page order are kept.
       </p>
       <p>
-        <strong>Is my PDF uploaded anywhere?</strong><br />
-        No. Text extraction runs entirely inside your browser, keeping your documents private.
+        <strong>Is my PDF uploaded to a server?</strong><br />
+        No. Text extraction runs completely inside your browser, keeping your documents private.
       </p>
     </div>
   );

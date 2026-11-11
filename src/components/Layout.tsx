@@ -27,8 +27,10 @@ export default function Layout() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-6">
               <Link to="/" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Home</Link>
-              <Link to="/" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">PDF Tools</Link>
               <Link to="/about" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">About</Link>
+              <Link to="/contact" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Contact</Link>
+              <Link to="/privacy-policy" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Privacy</Link>
+              <Link to="/terms-of-service" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Terms</Link>
             </nav>
 
             {/* Mobile menu button */}
@@ -49,8 +51,10 @@ export default function Layout() {
           <div className="md:hidden bg-white border-t border-slate-100 py-2">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link onClick={() => setIsMenuOpen(false)} to="/" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">Home</Link>
-              <Link onClick={() => setIsMenuOpen(false)} to="/" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">PDF Tools</Link>
               <Link onClick={() => setIsMenuOpen(false)} to="/about" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">About</Link>
+              <Link onClick={() => setIsMenuOpen(false)} to="/contact" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">Contact</Link>
+              <Link onClick={() => setIsMenuOpen(false)} to="/privacy-policy" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">Privacy</Link>
+              <Link onClick={() => setIsMenuOpen(false)} to="/terms-of-service" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 rounded-md">Terms</Link>
             </div>
           </div>
         )}

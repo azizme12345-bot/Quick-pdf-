@@ -172,13 +172,29 @@ export function JpgToPdf() {
     <div>
       <h2>How to use JPG to PDF</h2>
       <p>
-        Converting JPG photos into a PDF makes them much easier to share, print, or submit online. Follow these three steps to create your PDF:
+        Our JPG to PDF converter turns one or more JPG or JPEG photos into a clean, easy-to-share PDF document. Instead of sending a messy folder of separate image files, you can package everything into a single PDF that opens neatly on any computer or phone.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Select one or more JPG or JPEG images from your device, or drag them into the upload area.</li>
-        <li>Drag the image cards up or down to arrange them in the exact page order you want.</li>
-        <li>Click "Convert to PDF" to combine your photos into an A4 PDF document, then download it.</li>
+        <li>Click the upload box or drag and drop your JPG or JPEG images onto the page.</li>
+        <li>Drag the image cards up or down in the list to set the exact page order you want.</li>
+        <li>Click "Add More" if you need to include additional photos.</li>
+        <li>Click the "Convert to PDF" button to place each photo onto an A4 PDF page.</li>
+        <li>Download your finished PDF document to your device.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Students and job applicants often take photos of handwritten homework, ID cards, or paper certificates with their phone camera. Most school and job portals only accept PDF uploads, so converting those JPG photos into a single PDF lets you submit everything cleanly in one file.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Take photos in bright, even lighting so text on paper documents is easy to read.</li>
+        <li>Crop out messy desk backgrounds on your phone before converting to PDF.</li>
+        <li>Arrange the photos in page order before clicking convert so page 1 appears first.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
@@ -212,13 +228,29 @@ export function ImagesToPdf() {
     <div>
       <h2>How to use Images to PDF</h2>
       <p>
-        Need to turn a mix of JPG and PNG pictures into a single PDF? Follow these three simple steps to build your document:
+        The Images to PDF tool lets you combine both JPG and PNG pictures into a single, well-organized PDF document. Whether you have screenshots saved as PNGs and camera photos saved as JPGs, you can mix them together in any order without converting file formats first.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Upload any combination of JPG, JPEG, and PNG files using the upload box above.</li>
-        <li>Reorder your images by dragging them into the sequence you want them to appear in the PDF.</li>
-        <li>Click "Convert to PDF" to generate your multi-page PDF file and download it right away.</li>
+        <li>Click the upload area or drag and drop your JPG, JPEG, and PNG files into the box.</li>
+        <li>Reorder the image list by dragging each item into the sequence you want.</li>
+        <li>Use "Add More" if you want to append extra screenshots or photos.</li>
+        <li>Click "Convert to PDF" to generate your multi-page A4 PDF document.</li>
+        <li>Download the completed PDF file directly to your device.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Office workers and students often need to put together visual reports, expense receipts, or project portfolios that include both phone photos (JPG) and computer screenshots (PNG). Combining them into one PDF creates a clean, consistent handout that anyone can open.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Keep all images oriented upright before uploading so every page of your PDF reads naturally.</li>
+        <li>Use PNGs for crisp screenshots and JPGs for camera photos; the tool handles both automatically.</li>
+        <li>Each image is centered and scaled to fit an A4 page without stretching or cropping.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
@@ -230,8 +262,8 @@ export function ImagesToPdf() {
         Each image is automatically centered and scaled to fit neatly onto an A4 page without stretching or cropping.
       </p>
       <p>
-        <strong>Is there any cost or file limit?</strong><br />
-        It is 100% free with no watermarks, and everything processes directly inside your web browser.
+        <strong>Is there any cost or watermark?</strong><br />
+        No. It is 100% free with no watermarks, and everything processes directly inside your web browser.
       </p>
     </div>
   );

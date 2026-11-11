@@ -61,26 +61,41 @@ export default function CompressPdf() {
     <div>
       <h2>How to use Compress PDF</h2>
       <p>
-        Large PDF files can be hard to email or upload to online forms. Use this tool to shrink your PDF size in three easy steps:
+        Our Compress PDF tool helps you reduce the file size of your PDF documents directly in your web browser. It cleans up unused internal objects and redundant metadata so your files take up less space and upload much faster, without requiring any software installation.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Select a PDF file from your computer or phone, or drag and drop it into the upload box.</li>
-        <li>Check the file name and original size displayed on your screen.</li>
-        <li>Click "Compress PDF" to optimize the document, then compare the new size and download your smaller file.</li>
+        <li>Select a PDF file from your device or drag and drop it into the upload box above.</li>
+        <li>Review the file name and original file size shown on the screen.</li>
+        <li>Click the "Compress PDF" button to optimize the document structure.</li>
+        <li>Check the original size versus the compressed size in the summary bar, then download your smaller PDF.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Many university portals, visa application websites, and job boards enforce strict file size limits such as 2 MB or 5 MB. If your scanned transcript or portfolio is slightly too large to upload, compressing it removes unnecessary overhead so it fits under the limit and submits smoothly.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Use this tool on PDFs exported from Word, Google Docs, or design apps, which often contain extra metadata.</li>
+        <li>If your PDF is still too large because it has many pages, consider using Split PDF to remove unneeded pages first.</li>
+        <li>Always open the downloaded file to verify that all pages look right before submitting it.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
-        <strong>How does browser-based compression work?</strong><br />
-        The tool cleans up unused objects, redundant metadata, and extra structure inside the PDF to make the file smaller without altering your text.
+        <strong>How does browser-based PDF compression work?</strong><br />
+        The tool rebuilds your PDF while dropping unused objects, old revision data, and extra metadata, which reduces the overall file size.
       </p>
       <p>
-        <strong>Will my PDF still look sharp after compressing?</strong><br />
-        Yes. Text and vector graphics stay crisp. However, if your PDF consists mostly of large scanned photos, the size reduction may be modest.
+        <strong>Will my text become blurry after compression?</strong><br />
+        No. Text and vector shapes remain sharp and readable. Note that for PDFs made mostly of large scanned photos, the size reduction may be modest.
       </p>
       <p>
-        <strong>Is it safe for confidential documents?</strong><br />
-        Yes. Compression happens locally on your device, so your files are never uploaded or stored on any server.
+        <strong>Are my documents safe during compression?</strong><br />
+        Yes. Everything happens locally on your device. Your files are never uploaded to or stored on any server.
       </p>
     </div>
   );

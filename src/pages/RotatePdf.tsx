@@ -56,26 +56,41 @@ export default function RotatePdf() {
     <div>
       <h2>How to use Rotate PDF</h2>
       <p>
-        If a scanned document or report opens sideways or upside down, you can fix its orientation in seconds. Follow these three simple steps:
+        The Rotate PDF tool lets you fix the orientation of PDF pages that were scanned sideways or upside down. Instead of tilting your head or screen every time you open a document, you can permanently rotate the pages and save a clean copy in seconds.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Click the upload area or drag and drop the PDF file you want to fix.</li>
-        <li>Choose the rotation angle you need: 90 degrees, 180 degrees, or 270 degrees clockwise.</li>
-        <li>Click the "Rotate PDF" button to apply the change and download your properly oriented document.</li>
+        <li>Click the upload box or drag and drop the PDF file you want to rotate.</li>
+        <li>Choose your desired rotation angle: 90 degrees, 180 degrees, or 270 degrees clockwise.</li>
+        <li>Click the "Rotate PDF" button to apply the new orientation to the document.</li>
+        <li>Wait a moment for processing to finish, then download your corrected PDF file.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        When scanning ID cards, signed lease agreements, or handwritten class notes on a phone or office scanner, pages often end up rotated 90 degrees or completely upside down. Before emailing those documents to a manager, landlord, or teacher, you can rotate them upright so they are easy to read on any screen.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Use 90 degrees clockwise to turn a page lying on its left side upright, or 270 degrees if it is lying on its right side.</li>
+        <li>Use 180 degrees to flip an upside-down scan right-side up.</li>
+        <li>If you need to rotate only specific pages, split them out first, rotate them, and then merge the PDF back together.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
         <strong>Does this rotate every page in the PDF?</strong><br />
-        Yes. The selected rotation angle is applied to all pages in your document at once, saving you time on multi-page scans.
+        Yes. The rotation angle you select is applied to all pages in the document at once, which is ideal for multi-page scans.
       </p>
       <p>
         <strong>Is the rotation saved permanently?</strong><br />
-        Yes. The downloaded PDF file has the new page orientation saved permanently, so it will open upright in any PDF viewer.
+        Yes. The downloaded PDF stores the updated page orientation permanently, so it will open upright in every PDF viewer.
       </p>
       <p>
-        <strong>Are my files kept private?</strong><br />
-        Yes. Rotating happens directly in your browser without uploading your PDF to any external server.
+        <strong>Are my scanned documents uploaded anywhere?</strong><br />
+        No. Rotation happens directly inside your browser without sending your files to any server.
       </p>
     </div>
   );

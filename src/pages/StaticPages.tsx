@@ -3,15 +3,15 @@ import Page from './Page';
 
 export function About() {
   return (
-    <Page title="About Us">
+    <Page title="About Quick PDF Tools">
       <p className="text-lg text-slate-700 leading-relaxed mb-6">
-        Welcome to Quick PDF Tools, your number one source for all things PDF. We're dedicated to giving you the very best of online PDF utilities, with a focus on speed, privacy, and simplicity.
+        Quick PDF Tools is a free online toolkit built for students, job seekers, and office users who need to fix, combine, or prepare PDF documents without installing heavy software.
       </p>
       <p className="text-lg text-slate-700 leading-relaxed mb-6">
-        Founded with the mission to make document management accessible to everyone, Quick PDF Tools offers a suite of free, browser-based tools. Because our tools process your files directly in your web browser whenever technically possible, you don't have to worry about your sensitive documents being stored on external servers.
+        Whether you are merging certificates for a job application, compressing a large assignment for a school portal, or rotating a scanned form, our tools are designed to be fast, simple, and reliable.
       </p>
       <p className="text-lg text-slate-700 leading-relaxed mb-6">
-        We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+        Every tool runs directly in your web browser. Your files stay on your own device and are never uploaded to a remote server, giving you complete privacy for your personal and work documents.
       </p>
     </Page>
   );
@@ -19,13 +19,18 @@ export function About() {
 
 export function Contact() {
   return (
-    <Page title="Contact Us">
+    <Page title="Contact">
       <p className="text-lg text-slate-700 leading-relaxed mb-6">
-        Have a question or need assistance? We'd love to hear from you.
+        Have a question, suggestion, or feedback about Quick PDF Tools? We would love to hear from you.
       </p>
       <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-        <p className="text-slate-700 mb-2"><strong>Email:</strong> support@quick-pdf-tools.ai.studio</p>
-        <p className="text-slate-700">We aim to respond to all inquiries within 24-48 hours.</p>
+        <p className="text-slate-700 mb-2">
+          <strong>Email:</strong>{' '}
+          <a href="mailto:support@quick-pdf-tools.ai.studio" className="text-blue-600 hover:underline">
+            support@quick-pdf-tools.ai.studio
+          </a>
+        </p>
+        <p className="text-slate-700">We aim to respond to all inquiries within 24–48 hours.</p>
       </div>
     </Page>
   );
@@ -34,18 +39,18 @@ export function Contact() {
 export function PrivacyPolicy() {
   return (
     <Page title="Privacy Policy">
-      <p className="text-lg text-slate-700 leading-relaxed mb-6">Last updated: {new Date().toLocaleDateString()}</p>
-      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">1. Information We Collect</h2>
+      <p className="text-lg text-slate-700 leading-relaxed mb-6">Last updated: November 10, 2026</p>
+      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">1. Local Browser Processing</h2>
       <p className="text-slate-700 leading-relaxed mb-4">
-        We process your files directly in your web browser. This means that your files (PDFs, images) are not uploaded to our servers for processing. All modifications happen locally on your device.
+        All PDF and image files you select on Quick PDF Tools are processed locally inside your own web browser. Your files are not uploaded to, stored on, or shared with any external server.
       </p>
-      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">2. Usage Data</h2>
+      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">2. Browser Storage</h2>
       <p className="text-slate-700 leading-relaxed mb-4">
-        We may collect information on how the Service is accessed and used. This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+        We do not require accounts or logins, and we do not store your documents. Any temporary data created while you use a tool is cleared when you close or refresh the page.
       </p>
-      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">3. Advertising</h2>
+      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">3. Google AdSense and Cookies</h2>
       <p className="text-slate-700 leading-relaxed mb-4">
-        We may use third-party Service Providers to show advertisements to you to help support and maintain our Service.
+        This site uses Google AdSense to display advertisements. Google and its partners may use cookies to serve ads based on your prior visits to this website or other websites. You can manage your ad preferences through Google Ads Settings.
       </p>
     </Page>
   );
@@ -54,18 +59,18 @@ export function PrivacyPolicy() {
 export function TermsOfService() {
   return (
     <Page title="Terms of Service">
-      <p className="text-lg text-slate-700 leading-relaxed mb-6">Last updated: {new Date().toLocaleDateString()}</p>
-      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">1. Acceptance of Terms</h2>
+      <p className="text-lg text-slate-700 leading-relaxed mb-6">Last updated: November 10, 2026</p>
+      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">1. Free Use of Tools</h2>
       <p className="text-slate-700 leading-relaxed mb-4">
-        By accessing this website, you are agreeing to be bound by these website Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.
+        Quick PDF Tools provides free browser-based utilities for personal, educational, and office use. You may use the tools as needed without registration.
       </p>
-      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">2. Use License</h2>
+      <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">2. Your Responsibility</h2>
       <p className="text-slate-700 leading-relaxed mb-4">
-        Permission is granted to temporarily use the materials (information or software) on Quick PDF Tools's website for personal, non-commercial transitory viewing only.
+        You are solely responsible for the files you process and for keeping backups of your original documents. Do not use the site for any unlawful purpose.
       </p>
       <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">3. Disclaimer</h2>
       <p className="text-slate-700 leading-relaxed mb-4">
-        The materials on Quick PDF Tools's website are provided "as is". Quick PDF Tools makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+        The tools are provided "as is" without warranties of any kind. We are not liable for any data loss or damages resulting from the use of this website.
       </p>
     </Page>
   );

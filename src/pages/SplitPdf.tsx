@@ -104,26 +104,42 @@ export default function SplitPdf() {
     <div>
       <h2>How to use Split PDF</h2>
       <p>
-        Splitting a PDF helps you pull out only the pages you need from a large document. Follow these three steps to extract pages quickly:
+        The Split PDF tool helps you extract only the pages you actually need from a large PDF document and save them as a brand-new, smaller file. Instead of sending a 50-page handbook when someone only asked for three pages, you can pull out those exact pages in seconds.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Upload your PDF file by clicking the upload area or dragging the document onto the page.</li>
-        <li>Type the page numbers or ranges you want to keep, such as "1-3, 5, 8-10", into the input box.</li>
-        <li>Click "Split PDF" to create a new PDF containing only those selected pages, then download it.</li>
+        <li>Click the upload area or drag and drop the PDF file you want to split.</li>
+        <li>Check the total page count displayed below your file name.</li>
+        <li>Type the page numbers or ranges you want to extract into the input box, such as "1-3, 5, 8-10".</li>
+        <li>Click the "Split PDF" button to create a new document containing only your chosen pages.</li>
+        <li>Download the extracted PDF to your computer or phone.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Students and office workers frequently receive long course packets, scanned contracts, or monthly statements where only one or two pages are needed for a school form or expense report. Using Split PDF, you can extract just the signed page or the relevant assignment pages without sharing the rest of the document.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Use a hyphen for continuous page ranges (for example, 4-9) and commas to separate single pages (for example, 2, 7, 11).</li>
+        <li>Double-check the total page count so you do not enter a number higher than the last page.</li>
+        <li>Keep your original file as a backup; splitting creates a new file without modifying the source PDF.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
-        <strong>Will splitting a PDF change my original file?</strong><br />
-        No. Your original PDF stays untouched on your device. The tool creates a brand new PDF file with only the pages you selected.
+        <strong>Will splitting a PDF delete pages from my original file?</strong><br />
+        No. Your original PDF stays completely untouched on your device. The tool creates a separate new PDF with only the pages you selected.
       </p>
       <p>
-        <strong>How should I format page ranges?</strong><br />
-        Use a hyphen for continuous pages (like 2-6) and commas to separate individual pages or ranges (like 1, 4-7, 12).
+        <strong>Can I extract non-consecutive pages into one PDF?</strong><br />
+        Yes. Simply separate the page numbers or ranges with commas, like "1, 4-6, 12", and they will all be combined into your new file in order.
       </p>
       <p>
         <strong>Is my document sent to an external server?</strong><br />
-        No. All page extraction happens locally in your browser, so your sensitive documents remain completely private.
+        No. All page extraction runs locally in your browser, so confidential contracts and school records remain private.
       </p>
     </div>
   );

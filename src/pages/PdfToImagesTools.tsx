@@ -215,13 +215,28 @@ export function PdfToJpg() {
     <div>
       <h2>How to use PDF to JPG</h2>
       <p>
-        Converting PDF pages into JPG images makes it simple to share slides, charts, or pages on social media and websites. Follow these three steps:
+        Our PDF to JPG converter turns every page of your PDF document into a separate, high-resolution JPG image. This makes it easy to share individual pages on social media, embed them into presentations, or view them on devices that do not have a PDF reader.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Select a PDF file from your device or drag and drop it into the upload box above.</li>
-        <li>Click the "Convert to JPG" button to render each page of your PDF into a crisp JPG image.</li>
-        <li>Download individual pages one by one, or click "Download All as ZIP" to save every page at once.</li>
+        <li>Click the upload box or drag and drop the PDF file you want to convert.</li>
+        <li>Click the "Convert to JPG" button to render each page as a crisp JPG image.</li>
+        <li>Preview all converted pages in the grid on your screen.</li>
+        <li>Click "Download" under any single page to save it, or click "Download All as ZIP" for multi-page PDFs.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Teachers, marketers, and office staff often need to post a flyer, schedule, or chart from a PDF onto a website, WhatsApp group, or PowerPoint slide. Converting the PDF page to a JPG image lets you drop it straight into any image editor or messaging app.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>If your PDF has many pages, use the "Download All as ZIP" button to save every image in one click.</li>
+        <li>JPG is ideal for PDFs with photos and colorful flyers because it keeps file sizes small.</li>
+        <li>If your PDF has lots of sharp text or line diagrams, consider using our PDF to PNG tool for even crisper edges.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
@@ -255,13 +270,28 @@ export function PdfToPng() {
     <div>
       <h2>How to use PDF to PNG</h2>
       <p>
-        PNG is a lossless image format that keeps sharp text, diagrams, and graphics looking crisp. Follow these three steps to convert your PDF to PNG:
+        The PDF to PNG tool converts each page of your PDF into a lossless PNG image. Because PNG compression does not blur sharp edges, it is the best choice when your PDF contains small text, tables, technical drawings, or clean UI screenshots.
       </p>
+
+      <h3>Step-by-step guide</h3>
       <ol>
-        <li>Upload your PDF document by clicking the upload area or dragging the file onto the page.</li>
-        <li>Click "Convert to PNG" to turn each page of your PDF into a lossless PNG image.</li>
-        <li>Save any single page directly, or use "Download All as ZIP" if your PDF has multiple pages.</li>
+        <li>Select a PDF file from your device or drag and drop it into the upload area.</li>
+        <li>Click the "Convert to PNG" button to render every page into a lossless PNG image.</li>
+        <li>Review the generated page previews right on the screen.</li>
+        <li>Download individual PNG pages, or click "Download All as ZIP" to save all pages together.</li>
       </ol>
+
+      <h3>Common real-life use case</h3>
+      <p>
+        Designers, students, and office professionals often need to extract a clean diagram, resume preview, or spreadsheet table from a PDF without any fuzzy compression artifacts. Exporting to PNG keeps every line and letter razor-sharp for reports and portfolios.
+      </p>
+
+      <h3>Tips for best results</h3>
+      <ul>
+        <li>Choose PNG over JPG whenever your PDF contains mostly text, charts, or black-and-white forms.</li>
+        <li>Use the ZIP download option for multi-page documents to keep all your exported pages organized in one folder.</li>
+        <li>You can open the downloaded PNGs in any image viewer, browser, or presentation tool.</li>
+      </ul>
 
       <h3>Frequently Asked Questions</h3>
       <p>
