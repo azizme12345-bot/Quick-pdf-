@@ -26,8 +26,8 @@ export function Contact() {
       <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
         <p className="text-slate-700 mb-2">
           <strong>Email:</strong>{' '}
-          <a href="mailto:support@quick-pdf-tools.ai.studio" className="text-blue-600 hover:underline">
-            support@quick-pdf-tools.ai.studio
+          <a href="mailto:azizme12345@gmail.com" className="text-blue-600 hover:underline">
+            azizme12345@gmail.com
           </a>
         </p>
         <p className="text-slate-700">We aim to respond to all inquiries within 24–48 hours.</p>
