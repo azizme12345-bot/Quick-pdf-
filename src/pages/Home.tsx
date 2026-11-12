@@ -203,7 +203,7 @@ export default function Home() {
           <div className="bg-slate-100/60 rounded-2xl p-8 border border-slate-200/60 mb-16">
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Complete Suite of PDF Utilities</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Quick PDF Tools brings together all standard PDF actions into a single browser dashboard. You can effortlessly bundle images using our <strong>JPG to PDF</strong> and <strong>PNG to PDF</strong> pipelines, reorder sheets before generating documents, or do the exact opposite by converting single files using <strong>PDF to JPG</strong> and <strong>PDF to PNG</strong> extractions.
+              Quick PDF Tools brings together all standard PDF actions into a single browser dashboard. You can effortlessly bundle images using our <strong>JPG to PDF</strong> and <strong>Images to PDF</strong> pipelines, reorder sheets before generating documents, or do the exact opposite by converting single files using <strong>PDF to JPG</strong> and <strong>PDF to PNG</strong> extractions.
             </p>
             <p className="text-slate-600 leading-relaxed">
               We also support formatting actions. Optimize size through <strong>Compress PDF</strong>, combine records with <strong>Merge PDF</strong>, split selected sections with <strong>Split PDF</strong>, align orientation using <strong>Rotate PDF</strong>, or extract textual characters into copyable lists using <strong>PDF to Text</strong> processing.

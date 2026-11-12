@@ -15,7 +15,7 @@ export default function Page({ title, children }: PageProps) {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
       <Helmet>
         <title>{seoTitle}</title>
-        <meta name="robots" content="noindex, follow" />
+        <meta name="robots" content="index, follow" />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         
         {/* Dynamic OG Tags */}
